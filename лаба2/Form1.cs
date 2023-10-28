@@ -27,5 +27,11 @@ namespace лаба2
             var InheritanceWindow = new Form2();
             InheritanceWindow.Show();
         }
+
+        private void aToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var InheritanceWindow = new Abstr();
+            InheritanceWindow.Show();
+        }
     }
 }
