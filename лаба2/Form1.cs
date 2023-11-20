@@ -33,5 +33,15 @@ namespace лаба2
             var InheritanceWindow = new Abstr();
             InheritanceWindow.Show();
         }
+
+        private void лабораторкаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void лабToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var InheritanceWindow = new lab5();
+            InheritanceWindow.Show();
+        }
     }
 }

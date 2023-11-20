@@ -32,9 +32,11 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.спадкуванняToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.наслідуванняToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.абстракціяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.лабораторкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.лабToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,7 +45,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.спадкуванняToolStripMenuItem,
-            this.абстракціяToolStripMenuItem});
+            this.абстракціяToolStripMenuItem,
+            this.лабораторкаToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
@@ -62,15 +65,9 @@
             // наслідуванняToolStripMenuItem
             // 
             this.наслідуванняToolStripMenuItem.Name = "наслідуванняToolStripMenuItem";
-            this.наслідуванняToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.наслідуванняToolStripMenuItem.Size = new System.Drawing.Size(187, 26);
             this.наслідуванняToolStripMenuItem.Text = "Наслідування";
             this.наслідуванняToolStripMenuItem.Click += new System.EventHandler(this.наслідуванняToolStripMenuItem_Click);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // абстракціяToolStripMenuItem
             // 
@@ -86,6 +83,28 @@
             this.aToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.aToolStripMenuItem.Text = "Abstract";
             this.aToolStripMenuItem.Click += new System.EventHandler(this.aToolStripMenuItem_Click);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // лабораторкаToolStripMenuItem
+            // 
+            this.лабораторкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.лабToolStripMenuItem});
+            this.лабораторкаToolStripMenuItem.Name = "лабораторкаToolStripMenuItem";
+            this.лабораторкаToolStripMenuItem.Size = new System.Drawing.Size(125, 24);
+            this.лабораторкаToolStripMenuItem.Text = "5 лабораторка";
+            this.лабораторкаToolStripMenuItem.Click += new System.EventHandler(this.лабораторкаToolStripMenuItem_Click);
+            // 
+            // лабToolStripMenuItem
+            // 
+            this.лабToolStripMenuItem.Name = "лабToolStripMenuItem";
+            this.лабToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.лабToolStripMenuItem.Text = "5 лаб";
+            this.лабToolStripMenuItem.Click += new System.EventHandler(this.лабToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -111,6 +130,8 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem абстракціяToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem лабораторкаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem лабToolStripMenuItem;
     }
 }
 
